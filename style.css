@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F2F2F2;
+    height: 100%;
+}
+
+
+.header a {
+    all: unset;
+    font-size: 12px;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #33323D;
+    margin-left: 42px;
+}
+
+
+.header {
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 73px;
+    padding-left: 165px;
+    padding-right: 250px;
+    width: 100%;
+
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.pc {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    position: relative;
+    width: 1110px;
+    height: 600px;
+    margin-left: -85px;
+
+}
+
+
+
+.texto-apresentacao {
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: -0.446429px;
+    color: #33323D;
+    padding: 56px 28px 101px 27px;
+}
+
+
+.botao-maior {
+    Width: 200px;
+    Height: 48px;
+    background: #203A4C;
+    z-index: 1;
+    position: relative;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+}
+
+
+
+
+
+.texto-botao {
+    font-family: 'Public Sans';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 17px 17px 17px 48px;
+}
+
+.container-sobre-mim {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 149px;
+    margin-left: 165px;
+    margin-right: 165px;
+}
+
+.homem-img {
+    width: 540px;
+    height: 600px;
+}
+
+.sobre-texto {
+
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    width: 460px;
+    height: 601px;
+    margin: 48px 195px 49px 110px;
+}
+
+.titulo {
+    width: 430px;
+    height: 42px;
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+    color: #33323D;
+    margin-bottom: 24px;
+    margin-top: 48px;
+
+}
+
+
+
+.sobre-texto p {
+    width: 430px;
+    height: 360px;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #33323D;
+    margin-top: 28px;
+    margin-bottom: 24px;
+
+}
+
+.botao-portifolio {
+    width: 204px;
+    height: 48px;
+    box-sizing: border-box;
+    border: 1px solid #33323D;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    align-items: center;
+    text-align: center;
+    padding: 17px 28px;
+    margin-left: 115px;
+    margin-top: -20px;
+}
+
+
+.container-contato {
+    margin: 109px 165px 0 165px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.interessado {
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+    color: #33323D;
+    width: 367px;
+    height: 84px;
+}
+
+.botao-contato {
+    width: 168px;
+    height: 48px;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 17px 50px;
+    color: #33323D;
+    box-sizing: border-box;
+    border: 1px solid #33323D;
+
+}
+
+.botao-contato:hover {
+    background-color: #33323D;
+    color: #FAFAFA;
+}
+
+.footer {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 33px 165px;
+    margin-top: 150px;
+    width: 100vw;
+    height: 80px;
+    background: #33323D;
+}
+
+
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    gap: 43px;
+    margin-left: -700px;
+}
+
+.links a {
+    all: unset;
+    font-size: 12px;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.1px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+.rede-social {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.rede-social img {
+    width: 25px;
+    height: 24px;
+}
